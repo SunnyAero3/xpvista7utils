@@ -1,68 +1,130 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>XP-Vista-7 Utils - Downloads</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+body {
+    margin: 0;
+    padding: 0;
+    background: #c6d9f1;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
 
-<body>
+/* top bar (XP portal style) */
+#topbar {
+    background: #1f4e79;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 3px solid #5b9bd5;
+}
 
-<div id="topbar">
-    XP-Vista-7 Utils Download Center
-</div>
+/* main container */
+#container {
+    padding: 12px;
+}
 
-<div id="container">
+/* notice box */
+.notice {
+    background: #e7f0ff;
+    border: 1px solid #7aa6d8;
+    padding: 8px;
+    margin-bottom: 10px;
+}
 
-    <div class="notice">
-        <b>Welcome:</b> This site provides verified software for Windows XP, Vista, and 7 systems.
-    </div>
+/* main blue box */
+.box {
+    border: 1px solid #4f81bd;
+    background: #ffffff;
+    margin-bottom: 12px;
+}
 
-    <div class="box">
+/* header inside box */
+.box-header {
+    background: #4f81bd;
+    color: #fff;
+    padding: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
 
-        <div class="box-header">
-            Supermium Browser
-        </div>
+/* body inside box */
+.box-body {
+    padding: 10px;
+}
 
-        <div class="box-body">
+/* badges row */
+.badge-row {
+    margin-bottom: 8px;
+}
 
-            <div class="badge-row">
-                <span class="badge safe">✓ Verified Safe</span>
-                <span class="badge win">XP / Vista / 7</span>
-                <span class="badge new">Updated 2026</span>
-            </div>
+.badge {
+    display: inline;
+    padding: 2px 6px;
+    margin-right: 5px;
+    border: 1px solid #999;
+    background: #f2f2f2;
+    font-size: 11px;
+}
 
-            <p>
-                Supermium is a modern Chromium-based browser designed for legacy Windows systems.
-            </p>
+/* special badges */
+.badge.safe {
+    background: #d5f5d5;
+    border-color: #3c9d3c;
+}
 
-            <div class="download-box">
+.badge.win {
+    background: #d9e8ff;
+    border-color: #4f81bd;
+}
 
-                <table>
-                    <tr>
-                        <td><b>Windows 32-bit</b></td>
-                        <td><a class="download-btn" href="downloads/supermium-x86.exe">Download</a></td>
-                    </tr>
-                    <tr>
-                        <td><b>Windows 64-bit</b></td>
-                        <td><a class="download-btn" href="downloads/supermium-x64.exe">Download</a></td>
-                    </tr>
-                </table>
+.badge.new {
+    background: #fff2cc;
+    border-color: #c9a300;
+}
 
-            </div>
+/* download area */
+.download-box {
+    margin-top: 10px;
+    border: 1px solid #9fbfdf;
+    background: #f7fbff;
+    padding: 8px;
+}
 
-            <p class="small">
-                Mirrors recommended for slow connections or XP systems.
-            </p>
+/* table layout (XP era style) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
 
-        </div>
-    </div>
+td {
+    padding: 6px;
+    border-bottom: 1px solid #d0d7e5;
+}
 
-</div>
+/* download button */
+.download-btn {
+    background: #4f81bd;
+    color: #fff;
+    padding: 4px 8px;
+    border: 1px solid #2f5597;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-<div id="footer">
-    © 2007–2026 XP-Vista-7 Utils | Designed for legacy systems
-</div>
+.download-btn:hover {
+    background: #2f5597;
+}
 
-</body>
-</html>
+/* small text */
+.small {
+    font-size: 11px;
+    color: #555;
+}
+
+/* footer */
+#footer {
+    background: #e6e6e6;
+    border-top: 1px solid #999;
+    padding: 8px;
+    text-align: center;
+    font-size: 11px;
+}
