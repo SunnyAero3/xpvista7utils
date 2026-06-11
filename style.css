@@ -1,54 +1,68 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #dfe8f6;
-    font-family: Tahoma, Arial, sans-serif;
-    font-size: 12px;
-}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>XP-Vista-7 Utils - Downloads</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-#header {
-    background: #0a246a;
-    color: #ffffff;
-    padding: 12px;
-    border-bottom: 2px solid #5a8be0;
-}
+<body>
 
-#header h1 {
-    margin: 0;
-    font-size: 24px;
-}
+<div id="topbar">
+    XP-Vista-7 Utils Download Center
+</div>
 
-#header p {
-    margin: 4px 0 0 0;
-}
+<div id="container">
 
-#content {
-    padding: 10px;
-}
+    <div class="notice">
+        <b>Welcome:</b> This site provides verified software for Windows XP, Vista, and 7 systems.
+    </div>
 
-.box {
-    background: #ffffff;
-    border: 1px solid #7f9db9;
-    padding: 10px;
-}
+    <div class="box">
 
-.box h2 {
-    margin-top: 0;
-    color: #0a246a;
-}
+        <div class="box-header">
+            Supermium Browser
+        </div>
 
-a {
-    color: #003399;
-    text-decoration: underline;
-}
+        <div class="box-body">
 
-a:hover {
-    color: #ff6600;
-}
+            <div class="badge-row">
+                <span class="badge safe">✓ Verified Safe</span>
+                <span class="badge win">XP / Vista / 7</span>
+                <span class="badge new">Updated 2026</span>
+            </div>
 
-#footer {
-    background: #e5e5e5;
-    border-top: 1px solid #a0a0a0;
-    padding: 8px;
-    text-align: center;
-}
+            <p>
+                Supermium is a modern Chromium-based browser designed for legacy Windows systems.
+            </p>
+
+            <div class="download-box">
+
+                <table>
+                    <tr>
+                        <td><b>Windows 32-bit</b></td>
+                        <td><a class="download-btn" href="downloads/supermium-x86.exe">Download</a></td>
+                    </tr>
+                    <tr>
+                        <td><b>Windows 64-bit</b></td>
+                        <td><a class="download-btn" href="downloads/supermium-x64.exe">Download</a></td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <p class="small">
+                Mirrors recommended for slow connections or XP systems.
+            </p>
+
+        </div>
+    </div>
+
+</div>
+
+<div id="footer">
+    © 2007–2026 XP-Vista-7 Utils | Designed for legacy systems
+</div>
+
+</body>
+</html>
